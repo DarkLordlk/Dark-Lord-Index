@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+      <title>𝘿𝙖𝙧𝙠 𝙇𝙤𝙧𝙙 𝙈𝙞𝙧𝙧𝙤𝙧-𝙡𝙚𝙚𝙘𝙝</title>
+      <meta name="robots" content="noindex">
+      <link rel="icon" href="https://telegra.ph/file/ed5486523177905b8aede.jpg">
+      <script>
+          window.drive_names = JSON.parse('["𝘿𝙖𝙧𝙠 𝙇𝙤𝙧𝙙 𝙈𝙞𝙧𝙧𝙤𝙧-𝙡𝙚𝙚𝙘𝙝"]');
+          window.UI = JSON.parse('{"theme":"cyborg","version":"2.2.1","logo_image":true,"logo_height":"","logo_width":"100px","favicon":"https://telegra.ph/file/ed5486523177905b8aede.jpg","logo_link_name":"https://telegra.ph/file/2e8d1c0523523f2edf8a8.jpg","fixed_header":true,"header_padding":"80","nav_link_1":"Home","nav_link_3":"Current Path","nav_link_4":"Contact","show_logout_button":false,"fixed_footer":false,"hide_footer":true,"header_style_class":"navbar-dark bg-primary","footer_style_class":"bg-primary","css_a_tag_color":"white","css_p_tag_color":"white","folder_text_color":"white","loading_spinner_class":"text-light","search_button_class":"btn btn-danger","path_nav_alert_class":"alert alert-primary","file_view_alert_class":"alert alert-danger","file_count_alert_class":"alert alert-secondary","contact_link":"https://t.me/Dark_LordSl","copyright_year":"2050","company_name":"𝘿𝙖𝙧𝙠 𝙇𝙤𝙧𝙙 𝙈𝙞𝙧𝙧𝙤𝙧-𝙡𝙚𝙚𝙘𝙝","company_link":"https://t.me/darklordmirror","credit":true,"display_size":true,"display_time":false,"display_download":true,"disable_player":false,"custom_srt_lang":"","disable_video_download":false,"second_domain_for_dl":false,"downloaddomain":"","videodomain":"","poster":"https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.1/images/poster.jpg","audioposter":"https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.1/images/music.jpg","jsdelivr_cdn_src":"https://cdn.jsdelivr.net/npm/@googledrive/index","render_head_md":true,"render_readme_md":true,"display_drive_link":false,"plyr_io_version":"3.6.4","plyr_io_video_resolution":"16:9","unauthorized_owner_link":"https://t.me/Dark_LordSl","unauthorized_owner_email":"darklordsl@outlook.com","search_all_drives":false}');
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css" />
+      <link href="https://raw.githubusercontent.com/DarkLordlk/Scripts/main/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+      <style>a{color:white;}p{color:white;}</style>
+   </head>
+   <body>
+      <header>
+         <div id="nav">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+               <div class="container-fluid">
+                 <a class="navbar-brand" href="/"><img border="0" alt="𝘿𝙖𝙧𝙠 𝙇𝙤𝙧𝙙 𝙈𝙞𝙧𝙧𝙤𝙧-𝙡𝙚𝙚𝙘𝙝" src="https://telegra.ph/file/2e8d1c0523523f2edf8a8.jpg" height="undefined" width="100px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Path</a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="/">&gt; Home</a></div>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="https://t.me/Dark_LordSl" target="_blank">Contact</a>
+                        </li>
+                        
+                     </ul>
+                     <form class="d-flex" method="get" action="/0:search">
+                        <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="" required="">
+                        <button class="btn btn btn-danger" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Search</button>
+                     </form>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <div>
+         <div id="content" style="padding-top: 80px;">
+            <div class="container">
+               <div class="alert alert-primary d-flex align-items-center" role="alert" style="margin-bottom: 0; padding-bottom: 0rem;">
+                  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                     <ol class="breadcrumb" id="folderne">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                     </ol>
+                  </nav>
+               </div>
+               <div id="list" class="list-group text-break">
+
+               </div>
+               <div class="alert alert-secondary text-center" role="alert" id="count">Total <span id="n_drives" class="number text-center"></span> drives</div>
+            </div>
+         </div>
+         <div class="modal fade" id="SearchModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SearchModelLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="SearchModelLabel"></h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true"></span>
+                     </button>
+                  </div>
+                  <div class="modal-body" id="modal-body-space">
+                  </div>
+                  <div class="modal-footer" id="modal-body-space-buttons">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br>
+         <footer class="footer mt-auto py-3 text-muted bg-primary" style="left: 0; bottom: 0; width: 100%; color: white; z-index: 9999; display:none;"> <div class="container" style="width: auto; padding: 0 10px;"> <p class="float-end"> <a href="#">Back to top</a> </p> <p>Redesigned with <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="red" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" /> </svg> by <a href="https://www.npmjs.com/package/@googledrive/index" target="_blank">TheFirstSpeedster</a>, based on Open Source Softwares.</p> <p>© 2050 - <a href=" https://t.me/darklordmirror" target="_blank"> 𝘿𝙖𝙧𝙠 𝙇𝙤𝙧𝙙 𝙈𝙞𝙧𝙧𝙤𝙧-𝙡𝙚𝙚𝙘𝙝</a>, All Rights Reserved.</p> </div> </footer>
+      </div>
+   </body>
+  <script src="https://raw.githubusercontent.com/DarkLordlk/Scripts/main/homepage.min.js"></script>
+  <script src="https://raw.githubusercontent.com/DarkLordlk/Scripts/main/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</html>
